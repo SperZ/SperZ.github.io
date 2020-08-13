@@ -1,0 +1,109 @@
+body{
+    background-image: url(./Img/wooden-background.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2{
+    text-align: center;
+    color: black;
+}
+.navbar{
+    background-color: whitesmoke;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+p.lead{
+    color: white;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: .25px;
+
+}
+
+div.jumbotron{
+    background: none;
+}
+
+p.aboutme{
+    letter-spacing: .75px;
+    font-family: Georgia, 'Times New Roman', serif;
+    color:black;
+    font-weight: bold;
+    background-color: white .75;
+
+}
+
+div.header{
+    color: black;
+    text-align: center;
+}
+.navbar-nav a:hover{
+    background-color: whitesmoke;
+}
+
+div.col-md-12 #skills{
+    background-color: whitesmoke;
+}
+
+div.col-md-3 {
+    background-color: whitesmoke;
+}
+div.col-md-4{
+    margin-bottom: 1rem;
+    background: none;
+}
+
+div.projectcard div.cardbody{
+    background: none;
+}
+a.projectcard{
+    text-decoration: none;
+    color:black;
+    transition: 1s ease;
+}
+
+a.projectcard:hover{
+    -webkit-transform: rotateZ(-10deg);
+    -ms-transform: rotateZ(-10deg);
+    transform: rotateZ(-10deg);
+    transition: 1s ease;
+}
+
+a#download{
+    text-decoration: none;
+    color: black;
+}
+
+a#download:hover{
+    color: blue;
+    text-shadow: black;
+    text-transform: uppercase;
+}
+
+textarea{
+    resize: none;
+    border: grey;
+    border-radius: 3px;
+}
+
+
+div.footer{
+    background-color: black;
+}
+
+p.designedby{
+    color: white;
+    text-align: center;
+}
+
+p.copyright{
+    text-align: center;
+    color:white;
+}
+
+input{
+    margin-bottom: 1rem;
+}
