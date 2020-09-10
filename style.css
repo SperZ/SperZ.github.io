@@ -1,12 +1,13 @@
-body{
-    background-image: url(./Img/wooden-background.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
+div.header
+{
+    margin-top: 2em 0 0 -3em;
+    height: 30vh;
 }
 
 h2{
     text-align: center;
     color: black;
+    
 }
 .navbar{
     background-color: whitesmoke;
@@ -24,7 +25,9 @@ p.lead{
 }
 
 div.jumbotron{
-    background: none;
+    background-color: black;
+    width: 100vw;
+    height: 50vh;
 }
 
 p.aboutme{
@@ -33,6 +36,9 @@ p.aboutme{
     color:black;
     font-weight: bold;
     background-color: white .75;
+    float:right;
+    text-align: center;
+    display: flex;
 
 }
 
@@ -106,4 +112,13 @@ p.copyright{
 
 input{
     margin-bottom: 1rem;
+}
+
+.rounded{
+    max-width: 100%;
+    padding-right:10px;
+}
+
+.image{
+    margin-right:10px;
 }

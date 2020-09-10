@@ -26,7 +26,8 @@
           </nav>
             <!-- Jumbotron -->
      <div class="jumbotron jumbotron-fluid" >
-      <div class="header"><h1>Zach's Portfolio Page</h1>
+      <!-- <div class="header"><h1>Zach's Portfolio Page</h1> -->
+        <div class="header"><img src="./Img/LogoMakr_0J8PIw.png"></div>
          <p class="lead">Welcome to my Portfolio, included is a little bit about me and some of the projects I have completed using HTML, CSS, Bootstrap, and C#.</p>
       </div>
      </div>
@@ -34,14 +35,19 @@
       <!-- About Me -->
       <h2 id="aboutme">About Me</h2>
       <br>
-    <div class="container" >
+    <div class="container" id="me">
       <div class="row">
-        <div class="col-md-12">
-          <p class="aboutme">Hello my name is Zach Sperka. I am currently a student at the Eleven-Fifty Academy studing to be a .net developer in the language of C#. I previously attended IUPUI were I recieved a bachelors in English with a focus in creative writing. I also have taken course in Organizaitonal Leadership focusing on the model of Servant-leadership at Lincoln Christian Universitry. One of my passion is serving others, prior to entering school for I worked at a food in clothing pantry in Indianapolis where I served as the Assistant manager where I worked along side a group of volunteers each day to the serve those suffering from hardships in Marion county. I have also served in many other capacities one that I am most proud is the opportunity I had to serve as a mentor for teens/young adults dealing with chronic Illnesses at Riley Hospital for Children.<br> <br> My interest in programming came from my like of puzzles and problem solving, while they can be frustrating at times the self-satisfaction you get when solving a problem is worth it. My dream would be to work on a development team that helps to build software for the medical industry through medical technologys that help improve a patients long term outlook or enhances the healthcare system as a whole. I hope to takes what I have learned in this bootcamp about HTML, CSS, Bootstrap, and C# and teach teens and young adults who may be in the hospital for long-term care, ie while waiting on transplants or suffering from other serious medical conditions.
+        <div class="col-sm-2" id="image">
+          <img src="./Img/thumbnail.jfif" class="rounded float-left" alt="..." height="200px" width="200px">
+        </div>
+        <div class="col-md-8">
+          <p class="aboutme">Hello my name is Zach Sperka. I am a software developer having studied at Eleven Fifty Academy. I am experienced in C#, WebApi's, and MVC's. I previously attended IUPUI were I recieved a bachelors in English with a focus in creative writing. I also have taken course in Organizaitonal Leadership focusing on the model of Servant-leadership at Lincoln Christian Universitry. One of my passion is serving others, prior to attending Eleven Fifty Academy school for I worked at a food in clothing pantry in Indianapolis where I served as the Assistant manager where I worked along side a group of volunteers each day to the serve those suffering from hardships in Marion county. I have also served in many other capacities one that I am most proud is the opportunity I had to serve as a mentor for teens/young adults dealing with chronic Illnesses at Riley Hospital for Children.<br> <br>My interest in programming came from my love of mental puzzles and problem solving, while they can be frustrating at times the self-satisfaction you get when solving a problem is worth it. I am extremely comfortable working with databases, database structures, C# and Linq. I intended to further develop a comfortablilty with Javascript and Python, as well. 
           </p>
         </div>
+        <div class="col-sm-2"></div>
       </div>
     </div>
+
     <div class="container">
       <h4>Skills:</h4>
       <div class="row">
@@ -50,6 +56,9 @@
           <img src="./Img/CSS3_logo_and_wordmark.svg.png" height="100px" width="100px" alt="">
           <img src="./Img/csharp-logo.png" height="100px" width="100px" alt="">
           <img src="./Img/bootstrap-stack.png" height="=100px" width="100px" alt="">
+          <img src="./Img/git-logo.png" alt="" height="100px" width="100px">
+          <img src="./Img/sql-logo-286x300.png" alt="" height="100px" width="100px">
+          <img src="./Img/visual-studio-2013-logo.png" alt="" height="100px" width="200px">
         </div>
       </div>
     </div>
@@ -65,7 +74,7 @@
               <div class="row">
                 <a class ="projectcard" href="https://codepen.io/zachsperka/pen/wvMdaYE">
                   <div class="col-md-4">
-                    <div class="card" style="width: 15rem;">
+                    <div class="card" style=" height: 22rem; width: 15rem;"">
                       <img src="./Img/CSSLego.png" class="card-img-top" alt="...">
                       <div class="card-body">
                         <h5 class="card-title">CSS Lego</h5>
@@ -79,7 +88,7 @@
 
                 <a class ="projectcard" href="https://sperz.github.io/Zs_StaticStoreFront/">
                   <div class="col-md-4">
-                    <div class="card" style="width: 15rem;">
+                    <div class="card" style=" height: 22rem; width: 15rem;">
                       <img src="./Img/StaticStoreFront.png" class="card-img-top" alt="...">
                       <div class="card-body">
                         <h5 class="card-title">Static Storefront</h5>
@@ -91,7 +100,7 @@
   
                 <a class="projectcard" href="https://github.com/SperZ/GoldBadge_Challenges">
                   <div class="col-md-4">
-                    <div class="card" style="width: 15rem;">
+                    <div class="card" style=" height: 22rem; width: 15rem;">
                       <img src="./Img/Business_Challenges.png" class="card-img-top" alt="...">
                       <div class="card-body">
                         <h5 class="card-title">Business Challenges</h5>
@@ -107,7 +116,7 @@
               <div class="row">
                 <a href="https://github.com/sevcox/BlueBadge_WonkaTreatTracker" class="projectcard">
                   <div class="col-md-4">
-                    <div class="card" style="width: 15rem;">
+                    <div class="card" style="height: 22rem; width: 15rem;">
                         <img src="./Img/Screenshot (24).png" class="card-img-top" alt="...">
                         <div class="card-body">
                           <h5 class="card-title">Asp.Net WebApi</h5>
@@ -117,10 +126,10 @@
                   </div>
                 </a>
 
-                <a href="" class="projectcard">
+                <a href="https://allsportswebmvc.azurewebsites.net/" class="projectcard">
                   <div class="col-md-4">
-                    <div class="card" style="width: 15rem;">
-                      <img src="./Img/static.jpg" class="card-img-top" alt="...">
+                    <div class="card" style=" height: 22rem; width: 15rem;">
+                      <img src="./Img/Screenshot (44).png" class="card-img-top" alt="...">
                       <div class="card-body">
                         <h5 class="card-title">Red Badge</h5>
                         <pclass="card-text">This card is reserved for the project we are to complete during our Red Badge.</p>
@@ -131,7 +140,7 @@
 
                 <a href="" class="projectcard">
                   <div class="col-md-4">
-                    <div class="card" style="width: 15rem;">
+                    <div class="card" style=" height: 22rem; width: 15rem;">
                       <img src="./Img/static.jpg" class="card-img-top" alt="...">
                       <div class="card-body">
                         <h5 class="card-title">The Future</h5>
@@ -163,9 +172,9 @@
               <input type="submit" value="Submit">
             </form>
             <br>
-            <a href="https://github.com/SperZ?tab=repositories"><img src="../PortfolioProject/Img/GitHub_logo.png" height="32px" width="32px" alt=""></a>
-            <a href="https://codepen.io/zachsperka"><img src="../PortfolioProject/Img/codepen-2048-black.png" height="32px" width="32px"alt=""></a>
-            <a href="https://www.linkedin.com/in/zachary-sperka-3771417a/"><img src="../PortfolioProject/Img/linkedin-logo-hd-png-3.png" height="32px" width="32px" alt=""></a>
+            <a href="https://github.com/SperZ?tab=repositories"><img src="./Img/GitHub_logo.png" height="32px" width="32px" alt=""></a>
+            <a href="https://codepen.io/zachsperka"><img src="./Img/codepen-2048-black.png" height="32px" width="32px"alt=""></a>
+            <a href="https://www.linkedin.com/in/zachary-sperka-3771417a/"><img src="./Img/linkedin-logo-hd-png-3.png" height="32px" width="32px" alt=""></a>
             <br>
             <br>
             <a href="./downloads/Resume.pdf" download="" id="download">Download My Resume</a>  
